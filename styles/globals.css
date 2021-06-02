@@ -19,6 +19,11 @@ a {
   text-decoration: none;
 }
 
+.underlinez { text-shadow: 1em; }
+.underlinez:hover{
+  text-decoration-color: pink
+}
+
 * {
   box-sizing: border-box;
 }

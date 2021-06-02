@@ -1,16 +1,20 @@
 import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+const linkedin = <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
+const twitter = <FontAwesomeIcon icon={['fab', 'twitter']} />
 
 const links = [
-    // { href: '/skills', label: 'skills' },
-    // { href: '/projects', label: 'projects' },
-    { href: 'https://dwvicy.ml', label: 'dwvicy.ml' },
-    // { href: 'https://linktr.ee/dwvicy', label: 'socials' }
+    { href: '/', label: 'about' },
+    { href: '/', label: 'ux' },
+    { href: '/', label: 'tweets' },
 ];
 
 export default function Nav() {
     return (
         <nav>
-            <ul className="flex items-center justify-between p-8">
+            <ul className="flex flex-col items-center justify-center p-4">
                 <li>
                     <Link href="/">
                         <a className="text-black no-underline text-accent-1 text-lg font-bold dark:text-black ">
@@ -21,14 +25,17 @@ export default function Nav() {
                     </Link>
                 </li>
                 <div className="text-black border border-black shadow-lg">
-                    <ul className="px-4 py-2 flex flex-col items-center justify-between md:space-x-4 md:flex-row ">
+                    <ul className="px-4 py-2 flex flex-row items-start justify-between space-x-4 ">
                         {links.map(({ href, label }) => (
-                            <li className="text-center underline-magical" key={`${href}${label}`}>
+                            <li className="text-center" key={`${href}${label}`}>
                                 <Link href={href}>{label}</Link>
                             </li>
                         ))}
                     </ul>
+                    
                 </div>
+                
+                
             </ul>
         </nav>
     );
