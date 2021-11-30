@@ -1,29 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Questrial:wght@400&display=swap');
-
 * {
-  font-family: 'Questrial', sans-serif;
-}
-
-html,
-body {
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.underlinez { text-shadow: 1em; }
-.underlinez:hover{
-  text-decoration-color: pink
-}
-
-* {
-  box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
 }

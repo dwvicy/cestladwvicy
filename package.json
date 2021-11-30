@@ -1,30 +1,20 @@
 {
-  "name": "nextjs",
-  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "build:css": "postcss styles/globals.css -o public/tailwind.css",
-    "prod:build": "NODE_ENV=production npm run build:css && npm run build"
+    "start": "next start"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
-    "@fortawesome/free-brands-svg-icons": "^5.15.3",
-    "@fortawesome/free-regular-svg-icons": "^5.15.3",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@fortawesome/react-fontawesome": "^0.1.14",
-    "next": "10.x",
-    "next-fonts": "^1.5.1",
-    "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-preset-env": "^5.3.0",
-    "react": "17.x",
-    "react-dom": "17.x"
+    "@headlessui/react": "^1.4.2",
+    "daisyui": "^1.16.2",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.0",
-    "tailwindcss": "^2.1.2"
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
   }
 }
