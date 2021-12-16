@@ -14,7 +14,7 @@ export default function Nav() {
                     <Link href="/">
                         <a className="no-underline text-accent-1 text-xl font-bold ">
                             <p className="px-4 font-bold underline-magical">
-                                michispotlight
+                                dwvicy
                             </p>
                         </a>
                     </Link>
