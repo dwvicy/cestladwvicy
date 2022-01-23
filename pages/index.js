@@ -39,3 +39,15 @@ export default function Home() {
 </div>
   )
 }
+
+{/* 
+TODO:
+- Add a link to my CV
+- Add socials
+- Add Emoji Icons to the grid cards
+- Add text to the grid cards
+- Connect pages with grid cards
+- populate pages with relevant information
+- About page art stuff -> timeline, projects, positions taken etc.
+
+*/}
