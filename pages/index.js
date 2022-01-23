@@ -1,21 +1,34 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { Icon } from '@iconify/react';
 
 export default function Home() {
   return (
     <div className="row">
       <div className="column">
       <div className="child">
-          <h2>Hey, Vaishnavi here!</h2>
-          <p>I'm a product designer</p>
-        </div>
-      </div>
+      <div className="box">
+      <Icon icon="noto:crown" color="#2a2a3c" height="100" />
+      </div> {/* box */}
+          <h2 className="h1b"> Vaishnavi  Dwivedi </h2>
+      <div className="roaw">
+          {/* <Icon icon="noto:crystal-ball" color="#2a2a3c" height="20" /> */}
+          <p className="boday">full-stack product designer</p>
+      </div> {/* roaw */}
+        </div> {/* child */}
+      </div> {/* column */}
       <div className="column1">
         <div className="child">
-          <h2>Column 1</h2>
-          <p>Some text..</p>
-        </div>
-      </div>
+        <h2 className="h2b">About Me</h2>
+          <div className="box">
+          <div className="cv">
+              <p className="btxt"> READ MY CURRICULUM VITAE </p>
+              <Icon icon="uil:arrow-up-right" color="#2a2a3c" />
+          </div> {/* cv */}
+          </div> {/* box */}
+        </div> {/* child */}
+      </div> {/* column1 */}
 </div>
   )
 }
