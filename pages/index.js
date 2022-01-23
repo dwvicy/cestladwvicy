@@ -21,6 +21,7 @@ export default function Home() {
       <div className="column1">
         <div className="child">
         <h2 className="h2b">About Me</h2>
+        <p className="boday"> You can find my work here. </p>
           <div className="box">
           <div className="cv">
               <p className="btxt"> READ MY CURRICULUM VITAE </p>
@@ -30,7 +31,13 @@ export default function Home() {
         </div> {/* child */}
 
         <div class="parent">
-            <div class="div1"> </div>
+            <div className="div1"> 
+            <div className="worky">
+            <Icon className="worky-icon"icon="noto:briefcase" color="#2a2a3c" height="100" />
+                  <h3 className="h2b-white worky-text"> Work Experience </h3>
+                  
+            </div>
+            </div>
             <div class="div2"> 2 </div>
             <div class="div3"> 3 </div>
             <div class="div4"> 4 </div>

@@ -121,7 +121,18 @@ a {
   color: #1E1E2D;
   text-align: center;
   margin-top: auto;
+  margin-bottom: auto;
 
+}
+
+.h2b-white {
+  font-family: Inter, sans-serif;
+  letter-spacing: -2.2px;
+  font-size: 36px;
+  color: #fff;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 40px;
 }
 
 .boday {
@@ -180,7 +191,7 @@ color: #2A2A3C;
 
 .parent {
   display: grid;
-  margin-top: 20px;
+  margin-top: 50px;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
   grid-column-gap: 15px;
@@ -191,7 +202,11 @@ color: #2A2A3C;
     grid-area: 1 / 1 / 7 / 3; 
     background-color: #2A2A3C;
     border-radius: 24px;
-    height: 490px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-end;
   }
   .div2 { 
     grid-area: 4 / 3 / 7 / 5; 
@@ -223,7 +238,11 @@ color: #2A2A3C;
       .div1 { grid-area: 1 / 1 / 4 / 2; 
         background-color: #2A2A3C;
         border-radius: 24px;
-        height: 200px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
       }
       .div2 { grid-area: 4 / 1 / 7 / 2; 
         background-color: #2A2A3C;
@@ -237,4 +256,43 @@ color: #2A2A3C;
         background-color: #2A2A3C;
         border-radius: 24px;
       }
+  }
+
+  .worky {
+    padding: 30px;
+  }
+  @media screen and (min-width: 1000px) {
+    .worky {
+      padding-left: 30px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .worky {
+      padding: 10px;
+      flex-direction: row;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .worky-text {
+      margin: 0px;
+    }
+
+    .worky-icon {
+      margin-left: 12px;
+      margin-bottom: 15px;
+      margin-right: 10px;
+    }
+
+    .h2b-white{
+      text-align: left;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .h2b-white{
+      font-size: 30px;
+      line-height: 35px;
+    }
   }
