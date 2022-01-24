@@ -95,7 +95,7 @@ a {
 @media screen and (max-width: 1000px) {
     .column {
         justify-content: center;
-        height: 300px;
+        height: 400px;
         width: 95%;
         margin: 30px 10px 5px 15px;
     }
