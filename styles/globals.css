@@ -35,7 +35,7 @@ a {
 /* Create two equal columns that floats next to each other */
 
 .column {
-    margin: 20px 10px 20px 20px;
+    margin: 20px 10px 20px 10px;
     float: left;
     width: 25%;
     padding: 30px;
@@ -346,11 +346,19 @@ a {
     }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1190px) {
     .h2b-white {
-        font-size: 27px;
+        font-size: 25px;
         letter-spacing: -0.5px;
         line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .h2b-white {
+        font-size: 36px;
+        letter-spacing: -2.2px;
+        line-height: 40px;
     }
 }
 
@@ -418,3 +426,21 @@ a {
         margin-right: 10px;
     }
 }
+
+.flexy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .flexy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {}
