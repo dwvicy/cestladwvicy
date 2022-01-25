@@ -42,6 +42,13 @@ export default function Home() {
         <Icon icon = "uil:arrow-up-right"
     color = "#2a2a3c" />
         </div>  </div >
+<br></br>
+        <div className = "box">
+        <div className = "cv-alt">
+        <p className = "btxt" > MORE ABOUT ME </p> 
+        <Icon icon = "uil:arrow-up-right"
+    color = "#2a2a3c" />
+        </div>          </div >
 </div>
         <div>
             <div className = "">
@@ -77,11 +84,16 @@ export default function Home() {
     <div className = "div4" >
         <div className = "talky" >
         <Icon className = "talky-icon"
-    icon = "noto:studio-microphone"
-    color = "#2a2a3c"
-    height = "100" />
+            icon = "noto:studio-microphone"
+            color = "#2a2a3c"
+            height = "100" />
         <h3 className = "h2b-white talky-text" > Workshops & Talks </h3>      
-        </div> </div> </div> </div> </div >)}
+        </div>
+    </div> 
+    
+         </div> 
+         </div> 
+         </div >)}
 
 {
     /* 
