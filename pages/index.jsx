@@ -42,7 +42,7 @@ export default function Home() {
         <Link href="/projects"><a className='aji'>
                 <div className="projy">
                     <Icon className="projy-icon-1" icon="noto:alien-monster" color="#2a2a3c" height="50" />
-                    <h3 className = "h2b-white-chotu worky-text" > join my discord </h3>      
+                    <h3 className = "h2b-white-chotu worky-text" > my discord </h3>      
                 </div></a>
             </Link>
         </div>
@@ -51,7 +51,7 @@ export default function Home() {
         <Link href="/projects"><a className='aji'>
                 <div className="projy">
                     <Icon className="projy-icon-1" icon="noto:rolled-up-newspaper" color="#2a2a3c" height="50" />
-                    <h3 className = "h2b-white-chotu worky-text" > read my newsletter </h3>      
+                    <h3 className = "h2b-white-chotu worky-text" > my newsletter </h3>      
                 </div></a>
             </Link>
         </div>
