@@ -10,28 +10,54 @@ export default function Home() {
     return ( 
         <div className="column1">
             <div className="child">
-                <h2 className="h2b"> About Me </h2> 
-                <p className="boday"> You can find my work here. </p> 
+                <h2 className="h2b"> not your regular portfolio </h2> 
+                <p className="boday"> i'm a <i>coder + product designer</i> based in <u>mumbai, india</u>.</p> 
+                <p className="boday-chotu"> this page is meant to be a linktree, navigate to "my case studies" for my ux portfolio</p> 
                     <div className="box">
+                    <a href='https://bit.ly/dwvicy-cv' target="_blank">
                         <div className="cv pointer">
+                            
                             <p className="btxt"> READ MY CURRICULUM VITAE </p> 
                             <Icon icon="uil:arrow-up-right" color="#2a2a3c" />
+                           
                         </div>
+                        </a>
                     </div >
-                    <br></br>
-                    <div className = "box">
-                        <div className = "cv-alt pointer">
-                            <Link href="/about">
-                                <p className = "btxt" > MORE ABOUT ME </p>
-                            </Link>
-                            <Link href="/about">
-                                <Icon icon = "uil:arrow-up-right" color = "#2a2a3c" />
-                            </Link>
-                        </div>
-                    </div>
+                   
+                    
                 </div>
             <div>
         </div>
+        <div className='parent1'>
+        <div className='div1-1 pointer'>
+        <Link href="/projects"><a className='aji'>
+                <div className="projy">
+                    <Icon className="projy-icon-1" icon="noto:headphone" color="#2a2a3c" height="50" />
+                    <h3 className = "h2b-white-chotu worky-text" > my podcasts </h3>      
+                </div></a>
+            </Link>
+        </div>
+
+        <div className='div2-1 pointer'>
+        <Link href="/projects"><a className='aji'>
+                <div className="projy">
+                    <Icon className="projy-icon-1" icon="noto:alien-monster" color="#2a2a3c" height="50" />
+                    <h3 className = "h2b-white-chotu worky-text" > join my discord </h3>      
+                </div></a>
+            </Link>
+        </div>
+
+        <div className='div3-1 pointer'>
+        <Link href="/projects"><a className='aji'>
+                <div className="projy">
+                    <Icon className="projy-icon-1" icon="noto:rolled-up-newspaper" color="#2a2a3c" height="50" />
+                    <h3 className = "h2b-white-chotu worky-text" > read my newsletter </h3>      
+                </div></a>
+            </Link>
+        </div>
+
+
+    </div>
 
     <div className="parent">
 
@@ -66,13 +92,14 @@ export default function Home() {
         <div className="div4 pointer">
             <Link href="/talks"><a>    
                 <div className="talky">
-                    <Icon className="talky-icon" icon="noto:studio-microphone" color="#2a2a3c" height="100" />
+                    <Icon className="talky-icon" icon="noto:studio-microphone" color="#2a2a3c" height="80" />
                     <h3 className="h2b-white talky-text"> Workshops & Talks </h3>      
                 </div></a>
             </Link>
         </div> 
-    
     </div> 
+    
+  
 </div> 
 )}
 
