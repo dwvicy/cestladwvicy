@@ -117,11 +117,11 @@ a {
     
 } */
 .column {
-    margin: 20px 10px 20px 10px;
+    margin: 10px 5px 10px 5px;
     float: left;
-    width: 25%;
+    width: 28%;
     padding: 30px;
-    height: 750px;
+    height: 100vh;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -144,13 +144,13 @@ a {
 }
 
 .column1 {
-    margin: 20px 10px 20px 10px;
+    margin: 5px 5px 5px 5px;
     overflow-x: hidden;
     overflow-y: auto;
     float: left;
     width: 70%;
     padding: 30px;
-    height: 750px;
+    height: 100vh;
     border-radius: 10px;
     background-image:#d6adff;background-image:  
 radial-gradient(at 13% 98%, rgb(245, 232, 161) 0, transparent 44%),  
@@ -471,6 +471,10 @@ radial-gradient(at 80% 28%, hsla(43,89%,78%,1) 0, transparent 100%);
     margin-top: 55px;
 }
 
+.worky-text{
+    margin-right: 20px;
+}
+
 @media screen and (min-width: 1000px) {
     .worky {
         margin-top: 0px;
@@ -489,10 +493,17 @@ radial-gradient(at 80% 28%, hsla(43,89%,78%,1) 0, transparent 100%);
     }
     .worky-text {
         margin: 0px;
+        margin-right: 0px;
     }
+
+    span.optional{
+        display: none;
+    }
+
     .worky-icon {
-        margin-left: 12px;
-        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-right: 10px;
     }
     .h2b-white {

@@ -64,8 +64,8 @@ export default function Home() {
         <div className="div1 pointer">
             <Link href="/work"><a>
                 <div className="worky">
-                    <Icon className="worky-icon" icon="noto:briefcase" color="#2a2a3c" height="100" />
-                    <h3 className = "h2b-white worky-text"> Work Experience </h3>
+                    <Icon className="worky-icon" icon="noto:bar-chart" color="#2a2a3c" height="80" />
+                    <h3 className = "h2b-white worky-text"> case studies <span className='optional'> & ux research </span></h3>
                 </div></a>
             </Link>
         </div>
@@ -74,8 +74,8 @@ export default function Home() {
         <div className="div2 pointer">
             <Link href="/case-studies"><a className='aji'>
                 <div className="blogy">
-                    <Icon className="blogy-icon" icon="noto:bar-chart" color="#2a2a3c" height="80" />
-                    <h3 className="h2b-white blogy-text"> My Case Studies </h3>      
+                    <Icon className="blogy-icon" icon="noto:briefcase" color="#2a2a3c" height="80" />
+                    <h3 className="h2b-white blogy-text"> work experience </h3>      
                 </div></a>
             </Link>
         </div> 
@@ -84,7 +84,7 @@ export default function Home() {
             <Link href="/projects"><a className='aji'>
                 <div className="projy">
                     <Icon className="projy-icon" icon="noto:artist-palette" color="#2a2a3c" height="80" />
-                    <h3 className = "h2b-white worky-text" > Developer Projects </h3>      
+                    <h3 className = "h2b-white worky-text" > developer projects </h3>      
                 </div></a>
             </Link>
         </div>
@@ -93,7 +93,7 @@ export default function Home() {
             <Link href="/talks"><a>    
                 <div className="talky">
                     <Icon className="talky-icon" icon="noto:studio-microphone" color="#2a2a3c" height="80" />
-                    <h3 className="h2b-white talky-text"> Workshops & Talks </h3>      
+                    <h3 className="h2b-white talky-text"> workshops & talks </h3>      
                 </div></a>
             </Link>
         </div> 

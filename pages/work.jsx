@@ -7,10 +7,12 @@ export default function Work() {
       
       <Nav />
       <br />
-      <h1 className='h1b'>Work</h1>
-      <p className='boday'>
-        My Work Experience
+      <div className='project'>
+      <h1 className='h2b-left'>Work</h1>
+      <p className='boday-about'>
+        Have a look at my work experience
       </p>
+      </div>
     </div>
   );
 }
