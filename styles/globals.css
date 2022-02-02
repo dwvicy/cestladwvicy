@@ -189,14 +189,14 @@ radial-gradient(at 80% 28%, hsla(43,89%,78%,1) 0, transparent 100%);
         justify-content: center;
         height: 400px;
         width: 95%;
-        margin: 30px 10px 5px 15px;
+        margin: 10px;
     }
 }
 
 @media screen and (max-width: 1000px) {
     .column1 {
         width: 95%;
-        margin: 30px 10px 5px 15px;
+        margin: 10px;
         height: auto;
     }
 }
