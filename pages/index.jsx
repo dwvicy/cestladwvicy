@@ -30,30 +30,30 @@ export default function Home() {
         </div>
         <div className='parent1'>
         <div className='div1-1 pointer'>
-        <Link href="/projects"><a className='aji'>
+        <a className='aji' href="https://znap.link/dwvicy" target="_blank">
                 <div className="projy">
                     <Icon className="projy-icon-1" icon="noto:headphone" color="#2a2a3c" height="50" />
                     <h3 className = "h2b-white-chotu worky-text" > my podcasts </h3>      
                 </div></a>
-            </Link>
+
         </div>
 
         <div className='div2-1 pointer'>
-        <Link href="/projects"><a className='aji'>
+       <a className='aji' href='https://discord.com/invite/bxyPE5uH5R' target="_blank">
                 <div className="projy">
                     <Icon className="projy-icon-1" icon="noto:alien-monster" color="#2a2a3c" height="50" />
                     <h3 className = "h2b-white-chotu worky-text" > my discord </h3>      
                 </div></a>
-            </Link>
+            
         </div>
 
         <div className='div3-1 pointer'>
-        <Link href="/projects"><a className='aji'>
+        <a className='aji' href='https://michispotlight.substack.com' target="_blank">
                 <div className="projy">
                     <Icon className="projy-icon-1" icon="noto:rolled-up-newspaper" color="#2a2a3c" height="50" />
                     <h3 className = "h2b-white-chotu worky-text" > my newsletter </h3>      
                 </div></a>
-            </Link>
+            
         </div>
 
 

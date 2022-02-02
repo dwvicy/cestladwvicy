@@ -72,12 +72,56 @@ a {
     padding: 10px;
 }
 
+.rowm-about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.about-text {
+    margin-left: 50px;
+    width: 70%;
+}
+
+@media screen and (max-width: 1200px) {
+    .about-text {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+.child1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .rowm-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+}
+/* 
+@media screen and (max-width: 900px) {
+    .about-text{
+        
+    }
+    
+} */
 .column {
     margin: 20px 10px 20px 10px;
     float: left;
     width: 25%;
     padding: 30px;
-    height: 800px;
+    height: 750px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -101,10 +145,12 @@ a {
 
 .column1 {
     margin: 20px 10px 20px 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
     float: left;
     width: 70%;
     padding: 30px;
-    height: 800px;
+    height: 750px;
     border-radius: 10px;
     background-image:#d6adff;background-image:  
 radial-gradient(at 13% 98%, rgb(245, 232, 161) 0, transparent 44%),  
@@ -175,6 +221,16 @@ radial-gradient(at 80% 28%, hsla(43,89%,78%,1) 0, transparent 100%);
     margin-bottom: auto;
 }
 
+.h2b-left {
+    font-family: Inter, sans-serif;
+    letter-spacing: -2.2px;
+    font-size: 36px;
+    color: #1E1E2D;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .h2b-white {
     font-family: Inter, sans-serif;
     letter-spacing: -1.6px;
@@ -200,6 +256,30 @@ radial-gradient(at 80% 28%, hsla(43,89%,78%,1) 0, transparent 100%);
     text-align: center;
     font-size: 18px;
     letter-spacing: -0.75px;
+}
+
+.boday-grey {
+    font-family: DM Sans, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: -0.75px;
+    color: rgba(0, 0, 0, 0.525);
+}
+
+.boday-about {
+    font-family: DM Sans, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: -0.75px;
+    text-align: left;
+}
+
+
+
+.me-img {
+    border-radius: 24px;
+    border-width: 1.2em;
+    box-shadow: drop-shadow(0px 8.94309px 44.7154px rgba(95, 95, 95, 0.25));
 }
 
 .boday-chotu {
@@ -638,3 +718,82 @@ radial-gradient(at 80% 28%, hsla(43,89%,78%,1) 0, transparent 100%);
         }
     
 }
+
+.nav-bar{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+    
+
+.parentn {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 70%;
+    
+    }
+    
+    .div1n { grid-area: 1 / 1 / 2 / 3; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div2n { grid-area: 1 / 3 / 2 / 5; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div3n { grid-area: 1 / 5 / 2 / 7; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div4n { grid-area: 1 / 7 / 2 / 9; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div5n { grid-area: 1 / 9 / 2 / 11; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div6n { grid-area: 1 / 11 / 2 / 13; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+@media screen and (max-width: 1200px) {
+    .parentn{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+}
+
+span.label{
+    font-size: 20px;
+    padding-left: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+@media screen and (max-width: 800px) {
+    span.label{
+        display: none;
+    }
+    span.nav-icon{
+        padding: 15px;
+        background-color: #2e2b3123;
+        border-radius: 100%;
+    }
+}
+
