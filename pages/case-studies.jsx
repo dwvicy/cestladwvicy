@@ -4,12 +4,14 @@ import Nav from '../component/nav';
 export default function CaseStudy() {
   return (
     <div className='column1'>
-      <br />
       <Nav />
-      <h1 className='h1b'>Case Studies</h1>
-      <p className='boday'>
+      <br />
+      <div className='project'>
+      <h1 className='h2b-left'>My Case Studies</h1>
+      <p className='boday-about'>
         Here are my case studies
       </p>
+      </div>
     </div>
   );
 }

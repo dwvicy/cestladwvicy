@@ -731,7 +731,7 @@ radial-gradient(at 80% 28%, hsla(43,89%,78%,1) 0, transparent 100%);
 
 .parentn {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -739,7 +739,7 @@ radial-gradient(at 80% 28%, hsla(43,89%,78%,1) 0, transparent 100%);
     
     }
     
-    .div1n { grid-area: 1 / 1 / 2 / 3; 
+    .div1n { grid-area: 1 / 1 / 2 / 2; 
         display: flex;
         align-items: center;
         justify-content: center;
@@ -751,31 +751,31 @@ radial-gradient(at 80% 28%, hsla(43,89%,78%,1) 0, transparent 100%);
         background: #141e3013;
         cursor: pointer;
     }
-    .div2n { grid-area: 1 / 3 / 2 / 5; 
+    .div2n { grid-area: 1 / 2 / 2 / 3; 
         display: flex;
         align-items: center;
         justify-content: center;
         
     }
-    .div3n { grid-area: 1 / 5 / 2 / 7; 
+    .div3n { grid-area: 1 / 3 / 2 / 4; 
         display: flex;
         align-items: center;
         justify-content: center;
         
     }
-    .div4n { grid-area: 1 / 7 / 2 / 9; 
+    .div4n { grid-area: 1 / 4 / 2 / 5; 
         display: flex;
         align-items: center;
         justify-content: center;
         
     }
-    .div5n { grid-area: 1 / 9 / 2 / 11; 
+    .div5n { grid-area: 1 / 5 / 2 / 6; 
         display: flex;
         align-items: center;
         justify-content: center;
         
     }
-    .div6n { grid-area: 1 / 11 / 2 / 13; 
+    .div6n { grid-area: 1 / 6 / 2 / 7; 
         display: flex;
         align-items: center;
         justify-content: center;
