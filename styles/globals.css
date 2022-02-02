@@ -792,7 +792,7 @@ radial-gradient(at 80% 28%, hsla(43,89%,78%,1) 0, transparent 100%);
 
 @media screen and (max-width: 500px) {
     .parentn{
-        width: 70%;
+        width: 100%;
         margin-bottom: 20px;
     }
     
@@ -819,12 +819,15 @@ span.label{
     }
 
     span.nav-icon{
-        padding: 5px;
+        padding: 10px;
+        
+        background-color: rgba(90, 90, 90, 0.062);
+        border-radius: 50%;
     }
 
     span.nav-icon:hover{
-        background-color: rgba(203, 117, 253, 0.288);
-        border-radius: 50%;
+        background-color: #20143017;
+        border-radius: 5px;
       
     }
     

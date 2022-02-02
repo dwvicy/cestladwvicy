@@ -1,5 +1,6 @@
 import Name from '../component/name'
 import '../styles/globals.css'
+import '../styles/projects.css'
 
 function MyApp({ Component, pageProps }) {
     return ( 

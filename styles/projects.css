@@ -1,0 +1,11 @@
+.project{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:800px) {
+    .project{
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+}
