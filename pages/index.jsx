@@ -62,7 +62,7 @@ export default function Home() {
     <div className="parent">
 
         <div className="div1 pointer">
-            <Link href="/work"><a>
+            <Link href="/case-studies"><a>
                 <div className="worky">
                     <Icon className="worky-icon" icon="noto:bar-chart" color="#2a2a3c" height="80" />
                     <h3 className = "h2b-white worky-text"> case studies <span className='optional'> & ux research </span></h3>
@@ -72,7 +72,7 @@ export default function Home() {
 
     
         <div className="div2 pointer">
-            <Link href="/case-studies"><a className='aji'>
+            <Link href="/work"><a className='aji'>
                 <div className="blogy">
                     <Icon className="blogy-icon" icon="noto:briefcase" color="#2a2a3c" height="80" />
                     <h3 className="h2b-white blogy-text"> work experience </h3>      

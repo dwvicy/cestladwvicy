@@ -9,3 +9,109 @@
         margin-top: 20px;
     }
 }
+
+.case-study-grid {
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+}
+
+.cs1{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #28252e;
+}
+
+
+.cs1-img{
+    border-radius: 10px;
+}
+
+@media screen and (max-width:800px) {
+    .case-study-grid {
+        margin-left: 5px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .cs1{
+        border-radius: 15px;
+        padding: 10px;
+        background-color: #28252e;
+        width: fit-content;
+    }
+}
+
+
+.cv1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 254.43px;
+    height: 28.77px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 5.75494px;
+    margin-top: 20px;
+}
+
+.cv1-white {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 154.43px;
+    height: 28.77px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5.75494px;
+}
+
+.btxt-white {
+    width: 194px;
+    height: 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: auto;
+    /* identical to box height, or 125% */
+    text-align: center;
+    letter-spacing: 1.07905px;
+    color: #ffffff;
+}
+
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.boday-about-tiny {
+    font-family: DM Sans, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: -0.75px;
+    text-align: left;
+}
+
+.h2b-white-chotu {
+    font-family: Inter, sans-serif;
+    letter-spacing: -1px;
+    font-size: 22px;
+    color: #fff;
+    margin-top: auto;
+    margin-bottom: 0px;
+    line-height: 40px;
+    margin-left: 5px;
+    font-weight: 600;
+}
