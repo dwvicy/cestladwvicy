@@ -90,12 +90,12 @@ export default function Home() {
         </div>
 
         <div className="div4 pointer">
-            <Link href="/talks"><a>    
+            <a href='https://www.polywork.com/dwvicy/collections/1483' target="_blank">    
                 <div className="talky">
                     <Icon className="talky-icon" icon="noto:studio-microphone" color="#2a2a3c" height="80" />
                     <h3 className="h2b-white talky-text"> workshops & talks </h3>      
                 </div></a>
-            </Link>
+            
         </div> 
     </div> 
     

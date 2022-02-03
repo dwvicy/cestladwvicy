@@ -31,9 +31,11 @@ export default function CaseStudy() {
             <Image className='cs1-img' src='/images/frontrow.png' width={480} height={270}/></a>
         </div>
         <div className='cs1'>
-          <a href='https://vgre.notion.site/Port-Finance-9e147c64c62f4b498a137aaa347f75cc' target='_blank'><Image className='cs1' src='/images/Port.png' width={480} height={270}/></a></div>
-          <div className='cs1'><Link href='/'><a><Image className='cs1' src='/images/100DaysOfUX.png' width={480} height={270}/></a></Link></div>
-          <div className='cs1'><Link href='/'><a><Image className='cs1' src='/images/frontrow.png' width={480} height={270}/></a></Link></div>
+          <a href='https://vgre.notion.site/Port-Finance-9e147c64c62f4b498a137aaa347f75cc' target='_blank'><Image className='cs1-img' src='/images/Port.png' width={480} height={270}/></a></div>
+          <div className='cs1'><Link href='/'><a><Image className='cs1-img' src='/images/100DaysOfUX.png' width={480} height={270}/></a></Link></div>
+          <div className='cs1'><Link href='/'><a><Image className='cs1-img' src='/images/discord.png' width={480} height={270}/></a></Link></div>
+          <div className='cs1'><Link href='/'><a><Image className='cs1-img' src='/images/skillperitia.png' width={480} height={270}/></a></Link></div>
+          <div className='cs1'><Link href='/'><a><Image className='cs1-img' src='/images/Moo.png' width={480} height={270}/></a></Link></div>
 
 
       </div>
