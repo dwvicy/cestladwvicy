@@ -24,12 +24,23 @@
     border-radius: 15px;
     padding: 5px;
     background-color: #28252e;
+    width: fit-content;
+    height: fit-content;
+}
+
+.cs1:hover{
+    background-color: #fbeefde0;
 }
 
 
 .cs1-img{
     border-radius: 10px;
 }
+
+/* .cs1-img:hover{
+    filter: blur(8px);
+
+} */
 
 @media screen and (max-width:800px) {
     .case-study-grid {
@@ -55,26 +66,20 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 254.43px;
+    width: 174.43px;
     height: 28.77px;
     background: rgba(0, 0, 0, 0.1);
     border-radius: 5.75494px;
     margin-top: 20px;
 }
 
-.cv1-white {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 154.43px;
-    height: 28.77px;
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 5.75494px;
+.icons {
+    padding: 2px;
 }
 
-.btxt-white {
-    width: 194px;
+
+.btxt-ux {
+ 
     height: 15px;
     font-family: Inter;
     font-style: normal;
@@ -84,8 +89,9 @@
     /* identical to box height, or 125% */
     text-align: center;
     letter-spacing: 1.07905px;
-    color: #ffffff;
+    color: #2A2A3C;
 }
+
 
 
 .box1 {

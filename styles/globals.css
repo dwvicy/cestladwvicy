@@ -311,6 +311,12 @@ radial-gradient(at 80% 28%, hsla(43,89%,78%,1) 0, transparent 100%);
     margin-top: 20px;
 }
 
+.cv:hover, .cv-alt:hover, .cv1:hover{
+    background-color: #fbeefde0;
+
+
+}
+
 .cv-alt {
     display: flex;
     flex-direction: row;
@@ -744,7 +750,7 @@ radial-gradient(at 80% 28%, hsla(43,89%,78%,1) 0, transparent 100%);
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 0px;
+    grid-column-gap: 10px;
     grid-row-gap: 0px;
     width: 80%;
     
@@ -757,9 +763,16 @@ radial-gradient(at 80% 28%, hsla(43,89%,78%,1) 0, transparent 100%);
         
     }
 
-    .div1n:hover, .div2n:hover, .div3n:hover, .div4n:hover, .div5n:hover, .div6n:hover {
+    .div1n, .div2n, .div3n, .div4n, .div5n, .div6n {
+        padding: 5px;
         border-radius: 10px;
         background: #141e3013;
+
+    }
+
+    .div1n:hover, .div2n:hover, .div3n:hover, .div4n:hover, .div5n:hover, .div6n:hover {
+        border-radius: 10px;
+        background-color: #fbeefde0;
         cursor: pointer;
     }
     .div2n { grid-area: 1 / 2 / 2 / 3; 
@@ -813,9 +826,9 @@ radial-gradient(at 80% 28%, hsla(43,89%,78%,1) 0, transparent 100%);
 span.label{
     font-size: 20px;
     padding-left: 5px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    letter-spacing: -1px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: -1.3px;
 }
 
 
