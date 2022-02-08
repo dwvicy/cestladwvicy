@@ -121,3 +121,34 @@
     margin-left: 5px;
     font-weight: 600;
 }
+
+.h2b-left-work {
+    font-family: Inter, sans-serif;
+    letter-spacing: -1.5px;
+    font-size: 27px;
+    color: #1E1E2D;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+.subtitle-work {
+    font-family: DM Sans, sans-serif;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: -0.75px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.boday-work {
+    font-family: DM Sans, sans-serif;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: -0.55px;
+    text-align: left;
+}
+
+span.title{
+    font-size: 17px;
+}
